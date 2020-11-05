@@ -1,0 +1,179 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: "Montserrat", sans-serif;
+font-weight: bold;
+}
+
+ p{
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Title Section */
+
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.navbar-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+/* Title Image*/
+.dog-img{
+  width: 70%;
+  transform: rotate(10deg);
+  border: white 10px solid;
+  position: absolute;
+  right: 15%;
+}
+
+/* Button */
+.Download-button{
+  margin: 5% 3% 5% 0
+}
+
+@media (max-width: 990px) {
+  #title{
+    text-align: center;
+  }
+  .dog-img{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+                  /* Features Section */
+
+#features{
+  background-color: white;
+  position: relative;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.fea-icon{
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.fea-icon:hover{
+  color: #ff4c68;
+}
+
+                      /* Testimonials Section */
+
+#testimonials{
+  background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  border: white 2px solid;
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+                  /* Press Section */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Call to Action Section */
+
+#cta{
+  background-color: #ff4c68;
+}
+
+  /* Footer Section */
+
+#footer{
+  background-color: #fff;
+}
+
+.f-icon{
+  color: black;
+  margin: 20px 10px;
+}
